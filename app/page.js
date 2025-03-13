@@ -46,6 +46,13 @@ export default function Home() {
                   <div className="poemTitle">{poem.title}</div>
                   <div className="poemImage">
                     <img src={poem.filename} alt="poem"  />
+<Image
+            src={poem.filename}
+            alt="poem"
+            fill
+            sizes="100vw" // Makes it responsive
+            style={{ objectFit: 'contain' }} // Keeps aspect ratio
+          />
                   </div>
                 </div>
             </div>
