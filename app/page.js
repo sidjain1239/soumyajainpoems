@@ -50,7 +50,7 @@ export default function Home() {
             src={poem.filename}
             alt="poem"
             fill
-            sizes="100vw" // Makes it responsive
+           // Makes it responsive
             style={{ objectFit: 'contain' }} // Keeps aspect ratio
           />
                   </div>
