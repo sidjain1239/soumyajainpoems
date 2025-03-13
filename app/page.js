@@ -46,11 +46,7 @@ export default function Home() {
                   <div className="poemTitle">{poem.title}</div>
                   <div className="poemImage">
                     <img src={poem.filename} alt="poem"  />
-<img
-            src={poem.filename}
-            alt="poem"
-           
-          />
+
                   </div>
                 </div>
             </div>
